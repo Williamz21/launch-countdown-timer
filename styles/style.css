@@ -1,0 +1,153 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+  color: hsl(237deg, 18%, 59%);
+  background: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='569'%3E%3Cpath fill='%2346485B' fill-rule='evenodd' d='M774 563a3 3 0 110 6 3 3 0 010-6zm-623.5-5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm875 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-523-3a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm233-7a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM178 542a3 3 0 110 6 3 3 0 010-6zm1127.5 2a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm45.5-10a3 3 0 110 6 3 3 0 010-6zm-565.5-3a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-784-15a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm278.5-9a3 3 0 110 6 3 3 0 010-6zm207.5-30a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm50-17a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm233-8a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm465-22a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-699-6a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-465-22a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm1165-8a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-50-17a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM250 345a3 3 0 110 6 3 3 0 010-6zm450.5-7a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-614-15a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm520-13a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-570-4a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm1169.5-7a3 3 0 110 6 3 3 0 010-6zm-4.5 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-875-3a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm523 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-392-34a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm656 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-1008-3a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm1298-7a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-570-4a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm520-13a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-145.5-9a3 3 0 110 6 3 3 0 010-6zm-601.5-6a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm499.5-29a3 3 0 110 6 3 3 0 010-6zm-985.5-10a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-50-17a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm1298-8a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-465-22a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-832-6a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm33.5-18a3 3 0 110 6 3 3 0 010-6zm431.5-4a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm366-8a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm50-17a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm486-39a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM1136 29a3 3 0 110 6 3 3 0 010-6zm-614.5-2a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM412 23a3 3 0 110 6 3 3 0 010-6zM1.5 14a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm570-4a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm366-7a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-656-3a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm1008 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3z'/%3E%3C/svg%3E%0A"), linear-gradient(hsl(240deg, 14.29%, 13.73%), hsl(265.71deg, 18.92%, 14.51%));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*content*/
+.container {
+  width: min(90%, 1440px);
+  margin: 0 auto;
+  text-align: center;
+}
+.container h1 {
+  margin-top: 13rem;
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 0.75rem;
+}
+.container .item {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .item h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.container .item .background-item {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: hsl(240deg, 21.43%, 21.96%);
+  background: linear-gradient(to bottom, hsl(240deg, 21.43%, 21.96%) 0%, hsl(240deg, 21.43%, 21.96%) 49%, hsl(234deg, 17%, 12%) 50%, hsl(236deg, 21%, 26%) 49%, hsl(236deg, 21%, 26%) 100%);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 0px 10px 0px hsl(234deg, 17%, 12%);
+}
+.container .item .background-item h1 {
+  letter-spacing: unset;
+  margin: 0;
+  font-size: 4rem;
+  background: linear-gradient(to bottom, hsl(342.63deg, 52.29%, 57.25%) 0%, hsl(342.63deg, 52.29%, 57.25%) 50%, hsl(345deg, 95%, 68%) 50%), hsl(345deg, 95%, 68%) 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .item .background-item::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  clip-path: circle(50% at 100% 50%);
+  background-color: hsl(234deg, 17%, 12%);
+}
+.container .item .background-item::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  clip-path: circle(50% at 0 50%);
+  background-color: hsl(234deg, 17%, 12%);
+}
+
+/*footer*/
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+.attribution a:hover {
+  color: hsl(345deg, 95%, 68%);
+}
+
+/*footer background image*/
+.image {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1440' height='197'%3E%3Cdefs%3E%3Cpath id='a' d='M0 0h1440v197H0z'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cg mask='url(%23b)'%3E%3Cpath fill='%23211A29' d='M1440 50.205L1088.504 0 949.669 50.205 878 25.102 556 0 398.525 50.205l-95.807-25.103-51.328 16.761L45.704 0 0 17.701V160h1440z'/%3E%3Cpath fill='%231A1823' d='M1394.296 1l94.649 69.336 50.047-49.449zM1137.282 42.576l51.328 27.76 80.6-5.426zM884 1l157.475 83.151 80.929-26.062zM351.496 1l138.835 83.151 49.321-28.526z'/%3E%3Cpath fill='%232F2439' d='M0 84.151L351.496 1l138.835 83.151L562 42.576 884 1l157.475 83.151 95.807-41.575 51.328 27.76L1394.296 1 1440 30.317V266H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 12rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  gap: 2rem;
+}
+.image .icon {
+  margin-top: 2rem;
+  transition: ease-out 0.3s;
+  scale: 1.3;
+  cursor: pointer;
+}
+.image .icon:hover {
+  scale: 1.4;
+  transition: ease-out 0.3s;
+}
+.image .icon:hover path {
+  fill: hsl(345deg, 95%, 68%);
+}
+
+/*queries*/
+@media only screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .container .item {
+    scale: 0.7;
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
